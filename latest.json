@@ -1,11 +1,11 @@
 {
   "version": "1.4.0",
-  "releaseDate": "2026-05-02T15:20:38.000Z",
+  "releaseDate": "2026-05-02T15:40:48.000Z",
   "downloadUrl": "https://github.com/SrhGang/Nevoa-releases/releases/download/v1.4.0/nevoa-1.4.0.apk",
   "changelog": "chore: Amélioration configuration build et thème
 
 - userInterfaceStyle automatic (support thème sombre)
 - iOS runtimeVersion ajouté
 - production buildType: apk (distribution directe)",
-  "breaking": 
+  "breaking": true
 }
