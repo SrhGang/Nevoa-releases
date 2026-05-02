@@ -14,10 +14,13 @@ jobs:
 
       - name: Update latest.json
         env:
-          VERSION: ${{ github.event.client_payload.version }}
+          VERSION_RAW: ${{ github.event.client_payload.version }}
           CHANGELOG: ${{ github.event.client_payload.changelog }}
           BREAKING: ${{ github.event.client_payload.breaking }}
         run: |
+          # Retire le "v" si présent
+          VERSION="${VERSION_RAW#v}"
+          
           cat > latest.json <<EOF
           {
             "version": "$VERSION",
