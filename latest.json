@@ -2,6 +2,6 @@
   "version": "v1.4.0",
   "releaseDate": "2026-05-02T14:14:04.000Z",
   "downloadUrl": "https://github.com/SrhGang/Nevoa-releases/releases/download/v1.4.0/nevoa-1.4.0.apk",
-  "changelog": "fix(ci): force npm packager in expo-github-action to resolve EAS CLI installation error",
+  "changelog": "",
   "breaking": true
 }
